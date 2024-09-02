@@ -31,7 +31,7 @@ export default function Home() {
     <div className="flex flex-col h-screen bg-background">
       <header className="flex items-center justify-between p-4 bg-primary text-primary-foreground">
         <div className="flex items-center space-x-4">
-          <Image src="/images/logo.png" alt="Logo" width={40} height={40} className="rounded-full" />
+          <Image src="/images/logo.jpg" alt="Logo" width={40} height={40} className="rounded-full" />
           <h1 className="text-2xl font-bold">Aquí tu logo</h1>
         </div>
         <div className="flex items-center space-x-4">
