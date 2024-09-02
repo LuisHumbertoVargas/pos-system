@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sistema de Punto de Venta (POS)
 
-## Getting Started
+Este es un sistema de punto de venta (POS) moderno y profesional, desarrollado con **Next.js 14** y **Tailwind CSS**. El sistema incluye las siguientes secciones:
 
-First, run the development server:
+- **Gestión de Inventarios**: Administra y controla el stock de productos de manera eficiente.
+- **Clientes**: Gestiona la información y las interacciones con los clientes.
+- **Proveedores**: Mantén un registro detallado de tus proveedores y sus productos.
+- **Rutas**: Planifica y optimiza las rutas de entrega y distribución.
+- **Reportes**: Genera informes detallados para el análisis y la toma de decisiones.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+El sistema está diseñado para ser interactivo y fácil de usar, con una interfaz intuitiva que permite a los usuarios realizar transacciones rápidamente y gestionar su negocio de manera eficiente.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 14**: Framework de React para la creación de aplicaciones web eficientes y escalables.
+- **Tailwind CSS**: Framework de CSS utilitario para un diseño moderno y responsive.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instalación y Uso
 
-## Learn More
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/tu-repositorio.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd tu-repositorio
+    ```
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
+4. Inicia la aplicación en modo desarrollo:
+    ```bash
+    npm run dev
+    ```
+5. Accede a `http://localhost:3000` en tu navegador para ver la aplicación.
 
-To learn more about Next.js, take a look at the following resources:
+## Contribuciones
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Las contribuciones son bienvenidas. Por favor, sigue los siguientes pasos para contribuir:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Haz un fork del repositorio.
+2. Crea una nueva rama:
+    ```bash
+    git checkout -b feature/nueva-funcionalidad
+    ```
+3. Realiza tus cambios y haz commit:
+    ```bash
+    git commit -m 'Agrega nueva funcionalidad'
+    ```
+4. Sube tus cambios a tu fork:
+    ```bash
+    git push origin feature/nueva-funcionalidad
+    ```
+5. Abre un Pull Request en el repositorio original.
 
-## Deploy on Vercel
+## Licencia
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
